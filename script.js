@@ -80,7 +80,7 @@ if(index>=10 && total<=4){
   var text = document.createElement("p");
   logo.classList.add("winner-logo");
   text.innerHTML = "Try Again! To get a better Score!"
-  logo.src = "/images/sad.png"
+  logo.src = "sad.png"
   result_logo.appendChild(logo);
   result_logo.appendChild(text);
 }else if(index>=10 && total<=8){
@@ -89,7 +89,7 @@ var logo = document.createElement("img");
 var text = document.createElement("p");
 logo.classList.add("winner-logo");
   text.innerHTML="You got a pretty good Score!"
-  logo.src="/images/thumbup.png"
+  logo.src="thumbup.png"
   result_logo.appendChild(logo);
 result_logo.appendChild(text);
 }
@@ -99,7 +99,7 @@ var logo = document.createElement("img");
 var text = document.createElement("p");
 logo.classList.add("winner-logo");
   text.innerHTML="It's time for Party <br> You got a perfect Score!"
-  logo.src="/images/party.png"
+  logo.src="party.png"
   result_logo.appendChild(logo);
 result_logo.appendChild(text);
 }
